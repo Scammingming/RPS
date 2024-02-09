@@ -34,7 +34,7 @@ function showrock() {
   comprate = (compScore / btclick) * 100;
   document.getElementById("rate").innerHTML = winrate.toFixed(2) + "%";
   document.getElementById("comprate").innerHTML = comprate.toFixed(2) + "%";
-  setTimeout(revert, 2000);
+  setTimeout(revert, 1500);
 }
 
 document.getElementById("paperbt").addEventListener("click", showpaper);
@@ -67,7 +67,7 @@ function showpaper() {
   comprate = (compScore / btclick) * 100;
   document.getElementById("rate").innerHTML = winrate.toFixed(2) + "%";
   document.getElementById("comprate").innerHTML = comprate.toFixed(2) + "%";
-  setTimeout(revert, 2000);
+  setTimeout(revert, 1500);
 }
 
 document.getElementById("scissorbt").addEventListener("click", showscissor);
@@ -102,7 +102,7 @@ function showscissor() {
   comprate = (compScore / btclick) * 100;
   document.getElementById("rate").innerHTML = winrate.toFixed(2) + "%";
   document.getElementById("comprate").innerHTML = comprate.toFixed(2) + "%";
-  setTimeout(revert, 2000);
+  setTimeout(revert, 1500);
 }
 
 function revert() {
